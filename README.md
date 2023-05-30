@@ -2,18 +2,17 @@
 ## Inteligência Artificial - Trabalho Prático Pré-Processamento e Análise de Dados
 
 
-1. - [ ]  Identificação do atributo alvo (saída);
+1. - [x]  Identificação do atributo alvo (saída);
     
-    -
+    -Saída:   won(1669 repetições)  |   nowin(1527 repetições)
     
-2. - [ ]  Identificação dos tipos de dados dos atributos de entrada (quantitativo, qualitativo);
+2. - [x]  Identificação dos tipos de dados dos atributos de entrada (quantitativo, qualitativo);
     
-    -
+    -qualitativo
 
-3. - [ ]  Identificação da escala de dados dos atributos de entrada (nominal, ordinal, intervalar,
-racional);
+3. - [x]  Identificação da escala de dados dos atributos de entrada (nominal, ordinal, intervalar, racional);
 
-    -
+    -Todos atributos de entrada são nominais
     
 4. - [ ]  Exploração dos dados através de medidas de localidade;
     
@@ -27,10 +26,9 @@ racional);
     
     -
     
-7. - [ ]  Identificação e separação do conjunto de teste, que será utilizado para testar o desempenho dos modelos – o conjunto de testes deve ser representativo e ter as características da população completa. Caso sua base de dados já tenha o conjunto de teste definido, analisar
-se este segue as características do conjunto de treinamento;
+7. - [x]  Identificação e separação do conjunto de teste, que será utilizado para testar o desempenho dos modelos – o conjunto de testes deve ser representativo e ter as características da população completa. Caso sua base de dados já tenha o conjunto de teste definido, analisar se este segue as características do conjunto de treinamento;
     
-    -
+    -A separação é feita de forma aleatória, garantindo que as observações sejam distribuídas de maneira aleatória entre os conjuntos. Isso é importante para evitar qualquer viés nos conjuntos de treinamento e teste, 20% dos dados foram alocados para o conjunto de teste, enquanto 80% foram alocados para o conjunto de treinamento.
     
 8. - [ ]  Identificação e eliminação de atributos não necessários;
     
